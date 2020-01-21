@@ -153,7 +153,7 @@
 <div class="mt6">
       
       <div id="commento"></div>
-<script defer src="https://cdn.commento.io/js/commento.js"></script>
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
@@ -161,11 +161,11 @@
 <div id="gitalk-container"></div>
 <script type="text/javascript">
     var gitalk = new Gitalk({
-      id: '2020-01-21 22:31:32 \x2b0800 CST',
+      id: location.pathname,
       title: 'First',
       clientID: 'c45e573f69f67fab3136',
       clientSecret: '91a7597bb9cdaa30f07f61f816c34bbb9424778d',
-      repo: 'gitalk.shaka.rover.plus',
+      repo: 'shaka.rover.plus',
       owner: 'rover12421',
       admin: ['rover12421'],
       body: decodeURI(location.href),
