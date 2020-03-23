@@ -3,6 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://shaka.rover.plus/zh/</loc>
+    <lastmod>2020-03-23T23:05:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://shaka.rover.plus/zh/tags/</loc>
+    <lastmod>2020-03-23T23:05:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://shaka.rover.plus/zh/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
+    <lastmod>2020-03-23T23:05:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://shaka.rover.plus/zh/links/</loc>
+    <lastmod>2020-03-23T23:05:07+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/links/"
+                />
+  </url>
+  
+  <url>
     <loc>http://shaka.rover.plus/zh/2020/01/21/first/</loc>
     <lastmod>2020-01-21T22:31:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -50,40 +108,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://shaka.rover.plus/zh/</loc>
-    <lastmod>2020-01-21T22:31:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://shaka.rover.plus/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://shaka.rover.plus/zh/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://shaka.rover.plus/zh/tags/</loc>
-    <lastmod>2020-01-21T22:31:46+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://shaka.rover.plus/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://shaka.rover.plus/zh/tags/"
                 />
   </url>
   

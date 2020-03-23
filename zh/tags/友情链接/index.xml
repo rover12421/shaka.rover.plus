@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>友情链接 on Shaka Rover</title>
+    <link>http://shaka.rover.plus/zh/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+    <description>Recent content in 友情链接 on Shaka Rover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 Mar 2020 23:05:07 +0800</lastBuildDate>
+    
+	<atom:link href="http://shaka.rover.plus/zh/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>友情链接</title>
+      <link>http://shaka.rover.plus/zh/links/</link>
+      <pubDate>Mon, 23 Mar 2020 23:05:07 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/zh/links/</guid>
+      <description>小小酥 ❤ 小可爱 欢迎交换友情链接.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,19 @@
     <description>Recent content on Shaka Rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jan 2020 22:31:46 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 23:05:07 +0800</lastBuildDate>
     
 	<atom:link href="http://shaka.rover.plus/zh/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>友情链接</title>
+      <link>http://shaka.rover.plus/zh/links/</link>
+      <pubDate>Mon, 23 Mar 2020 23:05:07 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/zh/links/</guid>
+      <description>小小酥 ❤ 小可爱 欢迎交换友情链接.</description>
+    </item>
     
     <item>
       <title>First</title>
