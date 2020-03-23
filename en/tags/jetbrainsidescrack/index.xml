@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Shaka Rover</title>
-    <link>http://shaka.rover.plus/en/post/</link>
-    <description>Recent content in Posts on Shaka Rover</description>
+    <title>JetbrainsIdesCrack on Shaka Rover</title>
+    <link>http://shaka.rover.plus/en/tags/jetbrainsidescrack/</link>
+    <description>Recent content in JetbrainsIdesCrack on Shaka Rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Mar 2020 23:52:25 +0800</lastBuildDate>
     
-	<atom:link href="http://shaka.rover.plus/en/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://shaka.rover.plus/en/tags/jetbrainsidescrack/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>http://shaka.rover.plus/en/2020/03/23/about_jetbrainsidescrack/</guid>
       <description>JetbrainsIdesCrack is just a temp project. I will post to internal channels if there are updates. But by no means here. So please don&#39;t ask any questions about JetbrainsIdesCrack(update/release/support). Your inquiry will not receive any response.
 As for the update of JetbrainsIdesCrack, I think it may disappoint you. Please support genuine as much as possible under the conditions.</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://shaka.rover.plus/en/2020/01/21/first/</link>
-      <pubDate>Tue, 21 Jan 2020 22:31:32 +0800</pubDate>
-      
-      <guid>http://shaka.rover.plus/en/2020/01/21/first/</guid>
-      <description>This is first post.</description>
     </item>
     
   </channel>
