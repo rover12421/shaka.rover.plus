@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Shaka Rover </title>
+    <title>Shaka Rover  | 使用 jdk 中自带的 asm 库</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.62.2" />
     
@@ -27,31 +27,34 @@
 
     
     
-      <link href="/zh/tags/index.xml" rel="alternate" type="application/rss+xml" title="Shaka Rover" />
-      <link href="/zh/tags/index.xml" rel="feed" type="application/rss+xml" title="Shaka Rover" />
-      
-    
-    
-    <meta property="og:title" content="Tags" />
-<meta property="og:description" content="I&#39;m here. I&#39;m not here." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://shaka.rover.plus/zh/tags/" />
-<meta property="og:updated_time" content="2020-03-24T00:16:36+08:00" />
-<meta itemprop="name" content="Tags">
-<meta itemprop="description" content="I&#39;m here. I&#39;m not here."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tags"/>
-<meta name="twitter:description" content="I&#39;m here. I&#39;m not here."/>
+    <meta property="og:title" content="使用 jdk 中自带的 asm 库" />
+<meta property="og:description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/" />
+<meta property="article:published_time" content="2020-03-24T00:16:36+08:00" />
+<meta property="article:modified_time" content="2020-03-24T00:16:36+08:00" />
+<meta itemprop="name" content="使用 jdk 中自带的 asm 库">
+<meta itemprop="description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必">
+<meta itemprop="datePublished" content="2020-03-24T00:16:36&#43;08:00" />
+<meta itemprop="dateModified" content="2020-03-24T00:16:36&#43;08:00" />
+<meta itemprop="wordCount" content="661">
+
+
+
+<meta itemprop="keywords" content="jdk,asm," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="使用 jdk 中自带的 asm 库"/>
+<meta name="twitter:description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必"/>
 
   </head>
 
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://shaka.rover.plus/zh/images/bg_header.jpg');">
-    <div class="bg-black-60">
+  <header>
+    <div class="bg-blue">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="http://shaka.rover.plus/zh/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -59,15 +62,6 @@
     </a>
     <div class="flex-l items-center">
       
-<h4></h4>
-<ul class="pl0 mr3">
-    
-    <li class="list f5 f4-ns fw4 dib pr3">
-        <a class="hover-white no-underline white-90" href="http://shaka.rover.plus/en/tags/">English</a>
-    </li>
-    
-</ul>
-
 
       
         <ul class="pl0 mr3">
@@ -122,161 +116,84 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Tags
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-    
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
-      
-    </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
-      
-        <h2 class="f1">
-          <a href="/zh/tags/asm" class="link blue hover-black">
-            Tag: asm
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Post</span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/" class="link black dim">
-        使用 jdk 中自带的 asm 库
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必
-    </div>
-  </div>
-</div>
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
 
-        
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">使用 jdk 中自带的 asm 库</h1>
       
-        <h2 class="f1">
-          <a href="/zh/tags/first" class="link blue hover-black">
-            Tag: first
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Post</span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/2020/01/21/first/" class="link black dim">
-        First
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      这是第一篇文章.
-    </div>
-  </div>
-</div>
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-03-24T00:16:36&#43;08:00">March 24, 2020</time>
+      
+      
+    </header>
 
-        
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><code>JetbrainsIdesCrack</code> 从某个版本之后,体积从原来的<code>1M</code>多缩减到<code>100k</code>以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必要的库,所以文件体积自然而然的就缩减了.其实<code>JetbrainsIdesCrack</code>的核心代码猜不到<code>20k</code>,加密之后才有接近<code>100k</code>的体积的.</p>
+<p>其实我是一只不怎么关心文件体积这事的.只因群里有同学询问,为什么不使用jdk自带的asm库,这样可以大大的减少文件体积.其实最早我也是尝试过使用jdk再带的asm,但是编写代码的时候不会提示错误,编译就会提示找不到对应的类.点击查看类,所需要的类确实在<code>rt.jar</code>中完好无损的呆着.既然旧事重提,那就好好的探究下为啥编译会出错吧.</p>
+<p>找了一圈,算是把问题解决了.使用到了<code>-XDignore.symbol.file=true</code>这个编译参数.但是需要注意的是,这个参数可能只能在<code>OracleJdk</code>和<code>OpenJdk</code>中使用.为什么内置的asm不能使用呢?其实这也是为了保护编写代码的规范,让你尽量不要去使用标准库之外的内容.像<code>com.sun</code>,<code>jdk.internal</code>开头的包,都是<code>OracleJdk</code>和<code>OpenJdk</code>(这里不太确定,没深究了)特有的,并不在标准库内.</p>
+<p>像我一样使用<code>gradle</code>的同学还需要注意.<code>gradle</code>默认好想没走<code>javac</code>,或者只是是入口不是<code>javac</code>(没有找到资料,有了解的同学欢迎补充).导致<code>-XDignore.symbol.file=true</code>这个参数并不生效,需要添加额外的配置.</p>
+<p>关键的配置如下:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">tasks<span style="color:#f92672">.</span><span style="color:#a6e22e">withType</span><span style="color:#f92672">(</span>JavaCompile<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+    options<span style="color:#f92672">.</span><span style="color:#a6e22e">fork</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+    options<span style="color:#f92672">.</span><span style="color:#a6e22e">forkOptions</span><span style="color:#f92672">.</span><span style="color:#a6e22e">executable</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;javac&#39;</span>
+    options<span style="color:#f92672">.</span><span style="color:#a6e22e">compilerArgs</span><span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-XDignore.symbol.file=true&#34;</span><span style="color:#f92672">)</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>完整源码请参考: <a href="https://github.com/rover12421/using-asm-from-jdk">using-asm-from-jdk</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/zh/tags/jdk" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">jdk</a>
+   </li>
+  
+   <li class="list">
+     <a href="/zh/tags/asm" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">asm</a>
+   </li>
+  
+</ul>
+<div class="mt6">
       
-        <h2 class="f1">
-          <a href="/zh/tags/jdk" class="link blue hover-black">
-            Tag: jdk
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Post</span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/" class="link black dim">
-        使用 jdk 中自带的 asm 库
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必
-    </div>
-  </div>
-</div>
+      <div id="commento"></div>
 
-        
-      
-        <h2 class="f1">
-          <a href="/zh/tags/jetbrainsidescrack" class="link blue hover-black">
-            Tag: jetbrainsidescrack
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Post</span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/2020/03/23/about_jetbrainsidescrack/" class="link black dim">
-        关于 JetbrainsIdesCrack
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      JetbrainsIdesCrack 只是一个随性而起的项目.如果有更新我会发布到原有的渠道.但绝不是这里.所以也请不要在这里咨询关于任何 JetbrainsIdesCrack 更新/发布/支持 等问题.你的咨询将不
-    </div>
-  </div>
-</div>
 
-        
-      
-        <h2 class="f1">
-          <a href="/zh/tags/%E5%85%B3%E4%BA%8E" class="link blue hover-black">
-            Tag: 关于
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db"></span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/about/" class="link black dim">
-        关于
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      不要寻找哥,哥只是传说.
-    </div>
-  </div>
-</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
-        
-      
-        <h2 class="f1">
-          <a href="/zh/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5" class="link blue hover-black">
-            Tag: 友情链接
-          </a>
-        </h2>
-        
-          <div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db"></span>
-    <h1 class="f3 near-black">
-      <a href="http://shaka.rover.plus/zh/links/" class="link black dim">
-        友情链接
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      小小酥 ❤ 小可爱 Jennal's Blog 欢迎交换友情链接.
-    </div>
-  </div>
-</div>
-
-        
-      
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+      id: location.pathname,
+      title: '使用 jdk 中自带的 asm 库',
+      clientID: 'c45e573f69f67fab3136',
+      clientSecret: '91a7597bb9cdaa30f07f61f816c34bbb9424778d',
+      repo: 'shaka.rover.plus',
+      owner: 'rover12421',
+      admin: ['rover12421'],
+      body: decodeURI(location.href),
+    });
+    gitalk.render('gitalk-container');
+</script>
+      </div>
     </section>
-  </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-blue bottom-0 w-100 pa3" role="contentinfo">

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Shaka Rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 23 Mar 2020 23:52:18 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2020 00:16:36 +0800</lastBuildDate>
     
 	<atom:link href="http://shaka.rover.plus/zh/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用 jdk 中自带的 asm 库</title>
+      <link>http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/</link>
+      <pubDate>Tue, 24 Mar 2020 00:16:36 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/</guid>
+      <description>JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必</description>
+    </item>
     
     <item>
       <title>关于 JetbrainsIdesCrack</title>
