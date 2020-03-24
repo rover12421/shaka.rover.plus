@@ -139,7 +139,7 @@
       
     </header>
 
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><code>JetbrainsIdesCrack</code> 从某个版本之后,体积从原来的<code>1M</code>多缩减到<code>100k</code>以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必要的库,所以文件体积自然而然的就缩减了.其实<code>JetbrainsIdesCrack</code>的核心代码猜不到<code>20k</code>,加密之后才有接近<code>100k</code>的体积的.</p>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><code>JetbrainsIdesCrack</code> 从某个版本之后,体积从原来的<code>1M</code>多缩减到<code>100k</code>以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必要的库,所以文件体积自然而然的就缩减了.其实<code>JetbrainsIdesCrack</code>的核心代码才不到<code>20k</code>,加密之后才有接近<code>100k</code>的体积的.</p>
 <p>其实我是一只不怎么关心文件体积这事的.只因群里有同学询问,为什么不使用jdk自带的asm库,这样可以大大的减少文件体积.其实最早我也是尝试过使用jdk再带的asm,但是编写代码的时候不会提示错误,编译就会提示找不到对应的类.点击查看类,所需要的类确实在<code>rt.jar</code>中完好无损的呆着.既然旧事重提,那就好好的探究下为啥编译会出错吧.</p>
 <p>找了一圈,算是把问题解决了.使用到了<code>-XDignore.symbol.file=true</code>这个编译参数.但是需要注意的是,这个参数可能只能在<code>OracleJdk</code>和<code>OpenJdk</code>中使用.为什么内置的asm不能使用呢?其实这也是为了保护编写代码的规范,让你尽量不要去使用标准库之外的内容.像<code>com.sun</code>,<code>jdk.internal</code>开头的包,都是<code>OracleJdk</code>和<code>OpenJdk</code>(这里不太确定,没深究了)特有的,并不在标准库内.</p>
 <p>像我一样使用<code>gradle</code>的同学还需要注意.<code>gradle</code>默认好想没走<code>javac</code>,或者只是是入口不是<code>javac</code>(没有找到资料,有了解的同学欢迎补充).导致<code>-XDignore.symbol.file=true</code>这个参数并不生效,需要添加额外的配置.</p>
