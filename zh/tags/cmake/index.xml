@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cmake on Shaka Rover</title>
+    <link>http://shaka.rover.plus/zh/tags/cmake/</link>
+    <description>Recent content in cmake on Shaka Rover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 25 Feb 2022 00:56:43 +0800</lastBuildDate><atom:link href="http://shaka.rover.plus/zh/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单独编译ndk项目</title>
+      <link>http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/</link>
+      <pubDate>Fri, 25 Feb 2022 00:56:43 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/</guid>
+      <description>ndk项目可能需要使用特定环境下的ndk进行编译(ollvm),但是为了这个目标就把整个Android项目的编译环境安装一遍有点夸张了.于是</description>
+    </item>
+    
+  </channel>
+</rss>

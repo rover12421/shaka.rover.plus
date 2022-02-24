@@ -6,18 +6,14 @@
     <description>Recent content in links on Shaka Rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2020 23:05:02 +0800</lastBuildDate>
-    
-	<atom:link href="http://shaka.rover.plus/en/tags/links/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 23 Mar 2020 23:05:02 +0800</lastBuildDate><atom:link href="http://shaka.rover.plus/en/tags/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Links</title>
       <link>http://shaka.rover.plus/en/links/</link>
       <pubDate>Mon, 23 Mar 2020 23:05:02 +0800</pubDate>
       
       <guid>http://shaka.rover.plus/en/links/</guid>
-      <description>This&#39;s Me                 Welcome to exchange links.</description>
+      <description>This&amp;rsquo;s Me                 Welcome to exchange links.</description>
     </item>
     
   </channel>

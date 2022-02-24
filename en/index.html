@@ -6,7 +6,7 @@
     
     <title>Shaka Rover </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.89.4" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -36,7 +36,7 @@
 <meta property="og:description" content="I&#39;m here. I&#39;m not here." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://shaka.rover.plus/en/" />
-<meta property="og:updated_time" content="2020-03-23T23:52:25+08:00" />
+
 <meta itemprop="name" content="Shaka Rover">
 <meta itemprop="description" content="I&#39;m here. I&#39;m not here."><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Shaka Rover"/>
@@ -168,12 +168,37 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://shaka.rover.plus/en/2022/02/25/separate_compiled_the_ndk_project/" class="color-inherit dim link">
+            separate compiled the mdk project
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          The ndk project may need to be compiled with a specific version of ndk (ollvm), but it is a bit exaggerated to install the complete Android project compilation environment for this purpose. So I wrote a script specifically for compiling the ndk project. Using this script with docker is more perfect.
+#!/usr/bin/env bash  set -eu ProjectDir=/home/Rover12421/Test/app/src/main/cpp ndkVersion=22.1.7171670 cmakeVersion=3.18.1 Android_SDK_HOME=/home/rover12421/Android/sdk Android_NDK=${Android_SDK_HOME}/ndk/${ndkVersion} CMAKE_DIR=${Android_SDK_HOME}/cmake/${cmakeVersion} abi=armeabi-v7a BuildType=Release AndroidPlatform=23 CmakeOut=${ProjectDir}/build/cmake/${BuildType}/${abi} LibOut=${ProjectDir}/build/${BuildType}/${abi} FLAGS=&#34;-Wno-sign-compare&#34; # rm -rf ${CmakeOut} # rm -rf ${LibOut} ${CMAKE_DIR}/bin/cmake \ -H${ProjectDir} \ -DCMAKE_BUILD_TYPE=${BuildType} \ -DCMAKE_TOOLCHAIN_FILE=${Android_NDK}/build/cmake/android.
+        </div>
+          <a href="http://shaka.rover.plus/en/2022/02/25/separate_compiled_the_ndk_project/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="http://shaka.rover.plus/en/2020/03/23/about_jetbrainsidescrack/" class="color-inherit dim link">
             About JetbrainsIdesCrack
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          JetbrainsIdesCrack is just a temp project. I will post to internal channels if there are updates. But by no means here. So please don't ask any questions about JetbrainsIdesCrack(update/release/support). Your inquiry will not receive any response.
+          JetbrainsIdesCrack is just a temp project. I will post to internal channels if there are updates. But by no means here. So please don&rsquo;t ask any questions about JetbrainsIdesCrack(update/release/support). Your inquiry will not receive any response.
 As for the update of JetbrainsIdesCrack, I think it may disappoint you. Please support genuine as much as possible under the conditions.
         </div>
           <a href="http://shaka.rover.plus/en/2020/03/23/about_jetbrainsidescrack/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
@@ -220,7 +245,7 @@ As for the update of JetbrainsIdesCrack, I think it may disappoint you. Please s
     <footer class="bg-blue bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://shaka.rover.plus/en/" >
-    &copy;  Shaka Rover 2020 
+    &copy;  Shaka Rover 2022 
   </a>
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" target="_blank" href="http://www.beian.miit.gov.cn/"></a>
     <div>

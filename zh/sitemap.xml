@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://shaka.rover.plus/zh/tags/asm/</loc>
-    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <loc>http://shaka.rover.plus/zh/tags/cmake/</loc>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://shaka.rover.plus/zh/tags/jdk/</loc>
-    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/tags/cmake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/tags/cmake/"
+                />
+  </url><url>
+    <loc>http://shaka.rover.plus/zh/tags/compile/</loc>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/tags/compile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/tags/compile/"
+                />
+  </url><url>
+    <loc>http://shaka.rover.plus/zh/tags/ndk/</loc>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/tags/ndk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/tags/ndk/"
+                />
+  </url><url>
     <loc>http://shaka.rover.plus/zh/post/</loc>
-    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -31,11 +61,9 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/</loc>
-    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -48,11 +76,9 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/tags/</loc>
-    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -65,16 +91,37 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/</loc>
+    <lastmod>2022-02-25T00:56:43+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://shaka.rover.plus/en/2022/02/25/separate_compiled_the_ndk_project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/"
+                />
+  </url><url>
+    <loc>http://shaka.rover.plus/zh/tags/asm/</loc>
+    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://shaka.rover.plus/zh/tags/jdk/</loc>
+    <lastmod>2020-03-24T00:16:36+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/</loc>
     <lastmod>2020-03-24T00:16:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/tags/jetbrainsidescrack/</loc>
     <lastmod>2020-03-23T23:52:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -89,9 +136,7 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/tags/jetbrainsidescrack/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/2020/03/23/about_jetbrainsidescrack/</loc>
     <lastmod>2020-03-23T23:52:18+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -106,16 +151,12 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/2020/03/23/about_jetbrainsidescrack/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/tags/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
     <lastmod>2020-03-23T23:05:07+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/links/</loc>
     <lastmod>2020-03-23T23:05:07+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -130,9 +171,7 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/links/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/2020/01/21/first/</loc>
     <lastmod>2020-01-21T22:31:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -147,9 +186,7 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/2020/01/21/first/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/tags/first/</loc>
     <lastmod>2020-01-21T22:31:46+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -164,16 +201,12 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/tags/first/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/tags/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2020-01-17T00:26:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/about/</loc>
     <lastmod>2020-01-17T00:26:37+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -188,9 +221,7 @@
                 hreflang="zh"
                 href="http://shaka.rover.plus/zh/about/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://shaka.rover.plus/zh/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -205,5 +236,4 @@
                 href="http://shaka.rover.plus/zh/categories/"
                 />
   </url>
-  
 </urlset>

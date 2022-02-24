@@ -6,7 +6,7 @@
     
     <title>Shaka Rover  | 使用 jdk 中自带的 asm 库</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.62.2" />
+    <meta name="generator" content="Hugo 0.89.4" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,17 +30,14 @@
     <meta property="og:title" content="使用 jdk 中自带的 asm 库" />
 <meta property="og:description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/" />
+<meta property="og:url" content="http://shaka.rover.plus/zh/2020/03/24/using_asm_from_jdk/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-03-24T00:16:36+08:00" />
 <meta property="article:modified_time" content="2020-03-24T00:16:36+08:00" />
+
 <meta itemprop="name" content="使用 jdk 中自带的 asm 库">
-<meta itemprop="description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必">
-<meta itemprop="datePublished" content="2020-03-24T00:16:36&#43;08:00" />
-<meta itemprop="dateModified" content="2020-03-24T00:16:36&#43;08:00" />
+<meta itemprop="description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必"><meta itemprop="datePublished" content="2020-03-24T00:16:36+08:00" />
+<meta itemprop="dateModified" content="2020-03-24T00:16:36+08:00" />
 <meta itemprop="wordCount" content="661">
-
-
-
 <meta itemprop="keywords" content="jdk,asm," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用 jdk 中自带的 asm 库"/>
 <meta name="twitter:description" content="JetbrainsIdesCrack 从某个版本之后,体积从原来的1M多缩减到100k以内.关注体积的朋友都有点惊讶.其实这里并没有什么神秘而高深的技巧在里面.只因为删减了不必"/>
@@ -144,7 +141,7 @@
 <p>找了一圈,算是把问题解决了.使用到了<code>-XDignore.symbol.file=true</code>这个编译参数.但是需要注意的是,这个参数可能只能在<code>OracleJdk</code>和<code>OpenJdk</code>中使用.为什么内置的asm不能使用呢?其实这也是为了保护编写代码的规范,让你尽量不要去使用标准库之外的内容.像<code>com.sun</code>,<code>jdk.internal</code>开头的包,都是<code>OracleJdk</code>和<code>OpenJdk</code>(这里不太确定,没深究了)特有的,并不在标准库内.</p>
 <p>像我一样使用<code>gradle</code>的同学还需要注意.<code>gradle</code>默认好想没走<code>javac</code>,或者只是是入口不是<code>javac</code>(没有找到资料,有了解的同学欢迎补充).导致<code>-XDignore.symbol.file=true</code>这个参数并不生效,需要添加额外的配置.</p>
 <p>关键的配置如下:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">tasks<span style="color:#f92672">.</span><span style="color:#a6e22e">withType</span><span style="color:#f92672">(</span>JavaCompile<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">tasks<span style="color:#f92672">.</span><span style="color:#a6e22e">withType</span><span style="color:#f92672">(</span>JavaCompile<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     options<span style="color:#f92672">.</span><span style="color:#a6e22e">fork</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
     options<span style="color:#f92672">.</span><span style="color:#a6e22e">forkOptions</span><span style="color:#f92672">.</span><span style="color:#a6e22e">executable</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;javac&#39;</span>
     options<span style="color:#f92672">.</span><span style="color:#a6e22e">compilerArgs</span><span style="color:#f92672">.</span><span style="color:#a6e22e">add</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;-XDignore.symbol.file=true&#34;</span><span style="color:#f92672">)</span>
@@ -199,7 +196,7 @@
     <footer class="bg-blue bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://shaka.rover.plus/zh/" >
-    &copy;  Shaka Rover 2020 
+    &copy;  Shaka Rover 2022 
   </a>
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" target="_blank" href="http://www.beian.miit.gov.cn/">粤ICP备20006440号</a>
     <div>

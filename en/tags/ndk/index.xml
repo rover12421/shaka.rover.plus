@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ndk on Shaka Rover</title>
+    <link>http://shaka.rover.plus/en/tags/ndk/</link>
+    <description>Recent content in ndk on Shaka Rover</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Feb 2022 01:08:21 +0800</lastBuildDate><atom:link href="http://shaka.rover.plus/en/tags/ndk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>separate compiled the mdk project</title>
+      <link>http://shaka.rover.plus/en/2022/02/25/separate_compiled_the_ndk_project/</link>
+      <pubDate>Fri, 25 Feb 2022 01:08:21 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/en/2022/02/25/separate_compiled_the_ndk_project/</guid>
+      <description>The ndk project may need to be compiled with a specific version of ndk (ollvm), but it is a bit exaggerated to install the complete Android project compilation environment for this purpose. So I wrote a script specifically for compiling the ndk project. Using this script with docker is more perfect.
+#!/usr/bin/env bash  set -eu ProjectDir=/home/Rover12421/Test/app/src/main/cpp ndkVersion=22.1.7171670 cmakeVersion=3.18.1 Android_SDK_HOME=/home/rover12421/Android/sdk Android_NDK=${Android_SDK_HOME}/ndk/${ndkVersion} CMAKE_DIR=${Android_SDK_HOME}/cmake/${cmakeVersion} abi=armeabi-v7a BuildType=Release AndroidPlatform=23 CmakeOut=${ProjectDir}/build/cmake/${BuildType}/${abi} LibOut=${ProjectDir}/build/${BuildType}/${abi} FLAGS=&amp;#34;-Wno-sign-compare&amp;#34; # rm -rf ${CmakeOut} # rm -rf ${LibOut} ${CMAKE_DIR}/bin/cmake \ -H${ProjectDir} \ -DCMAKE_BUILD_TYPE=${BuildType} \ -DCMAKE_TOOLCHAIN_FILE=${Android_NDK}/build/cmake/android.</description>
+    </item>
+    
+  </channel>
+</rss>

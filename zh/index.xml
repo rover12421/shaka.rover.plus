@@ -6,10 +6,15 @@
     <description>Recent content on Shaka Rover</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 24 Mar 2020 00:16:36 +0800</lastBuildDate>
-    
-	<atom:link href="http://shaka.rover.plus/zh/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 25 Feb 2022 00:56:43 +0800</lastBuildDate><atom:link href="http://shaka.rover.plus/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>单独编译ndk项目</title>
+      <link>http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/</link>
+      <pubDate>Fri, 25 Feb 2022 00:56:43 +0800</pubDate>
+      
+      <guid>http://shaka.rover.plus/zh/2022/02/25/separate_compiled_the_ndk_project/</guid>
+      <description>ndk项目可能需要使用特定环境下的ndk进行编译(ollvm),但是为了这个目标就把整个Android项目的编译环境安装一遍有点夸张了.于是</description>
+    </item>
     
     <item>
       <title>使用 jdk 中自带的 asm 库</title>
@@ -35,7 +40,7 @@
       <pubDate>Mon, 23 Mar 2020 23:05:07 +0800</pubDate>
       
       <guid>http://shaka.rover.plus/zh/links/</guid>
-      <description>小小酥 ❤ 小可爱 Jennal&#39;s Blog Reborn&#39;s Blog 欢迎交换友情链接.</description>
+      <description>小小酥 ❤ 小可爱 Jennal&amp;rsquo;s Blog Reborn&amp;rsquo;s Blog 欢迎交换友情链接.</description>
     </item>
     
     <item>
